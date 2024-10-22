@@ -1,0 +1,46 @@
+.app {
+    height: 100%;
+    padding-top: 248px;
+    padding-bottom: 248px;
+    h1 {
+        font-size: 80px;
+        color: #2E353B;
+        font-family: italic;
+        text-align: center;
+        font-weight: bold;
+    }
+    p {
+        font-size: 32px;
+        color: #000;
+        text-align: center;
+        font-weight: bold;
+    }
+    h2 {
+        margin-top: 48px;
+        color: #757E8F;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+.marquee {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.imageList {
+    display: flex;
+    img {
+        height: 64px;
+        margin-right: 32px
+    }
+}
+
+.textList {
+    display: flex;
+    .textItem {
+        margin-right: 32px;
+        font-size: 32px
+    }
+}
